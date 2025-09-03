@@ -32,20 +32,20 @@ int main()
     app.setFramerateLimit(60);
 
     sf::Texture t1, t2, t3, t4, t5, t6, t7;
-    if (!t1.loadFromFile("D:/LuL/Downloads/Asteroids2.2/Asteroids2.2/images/spaceship.png")) {
+    if (!t1.loadFromFile("../txt/spaceship.png")) {
         cerr << "Błąd ładowania: spaceship.png" << endl;
         return 1;
     }
-    if (!t3.loadFromFile("D:/LuL/Downloads/Asteroids2.2/Asteroids2.2/images/explosions/type_C.png")) {
+    if (!t3.loadFromFile("../txt/type_C.png")) {
         cerr << "Błąd ładowania: explosions/type_C.png" << endl;
         return 1;
     }
-    if (!t4.loadFromFile("D:/LuL/Downloads/Asteroids2.2/Asteroids2.2/images/rock.png")) {
+    if (!t4.loadFromFile("../txt/rock.png")) {
         cerr << "Błąd ładowania: rock.png" << endl;
         return 1;
     }
 
-    if (!t6.loadFromFile("D:/LuL/Downloads/Asteroids2.2/Asteroids2.2/images/rock_small.png")) {
+    if (!t6.loadFromFile("../txt/rock_small.png")) {
         cerr << "Błąd ładowania: rock_small.png" << endl;
         return 1;
     }
@@ -74,7 +74,7 @@ int main()
 
     
     sf::Font orbitronFont;
-    if (!orbitronFont.loadFromFile("D:/LuL/Downloads/Asteroids2.2/Asteroids2.2/Orbitron/static/Orbitron-Regular.ttf")) {
+    if (!orbitronFont.loadFromFile("../txt/Orbitron-Regular.ttf")) {
         cerr << "Błąd ładowania czcionki: Orbitron-Regular.ttf" << endl;
         return 1;
     }
@@ -162,4 +162,5 @@ int main()
 
     return 0;
 }
+
 
