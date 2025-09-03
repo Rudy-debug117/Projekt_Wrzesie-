@@ -1,6 +1,6 @@
 #pragma once
-#ifndef CONSTANTS_H
-#define CONSTANTS_H
+#ifndef HEADER_H
+#define HEADER_H
 
 const int W = 1200;            
 const int H = 800;             
